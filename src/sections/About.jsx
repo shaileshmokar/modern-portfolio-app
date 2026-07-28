@@ -80,7 +80,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Right Column Highlights*/}
+          {/* Right Column Highlights */}
           <div className="grid sm:grid-cols-2 gap-6">
             {highlights.map((item, idx) => (
               <div
