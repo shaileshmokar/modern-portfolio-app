@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <footer className="py-12 border-t border-border">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap8">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
 
           {/* Social Links */}
-          <div className="flex flex-wrap items-center gap-4">
+          <div className="flex items-center gap-4">
             {socialLinks.map((social) => (
               <a
                 href={social.href}

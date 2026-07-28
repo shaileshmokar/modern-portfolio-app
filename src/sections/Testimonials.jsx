@@ -4,7 +4,7 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
-      "Pedro is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
+      "shailesh is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
     author: "Sarah Chen",
     role: "CTO, Tech Innovators Inc.",
     avatar:
@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     quote:
-      "Working with Pedro was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
+      "Working with shailesh was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
     author: "Michael Rodriguez",
     role: "Product Manager, Digital Solutions",
     avatar:
@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     quote:
-      "Pedro's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
+      "shailesh's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
     author: "Emily Watson",
     role: "Engineering Lead, StartUp Labs",
     avatar:
@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     quote:
-      "Not only is Pedro technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
+      "Not only is shailesh technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
     author: "David Kim",
     role: "CEO, Innovation Hub",
     avatar:
@@ -58,7 +58,7 @@ const Testimonials = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
-        <div className="">
+        <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
             What people say
           </span>
@@ -87,7 +87,7 @@ const Testimonials = () => {
                 <img
                   src={testimonials[activeIdx].avatar}
                   alt={testimonials[activeIdx].author}
-                  className="w-14 h-14 rounded-full object-cover ring-2 ring-primay/20"
+                  className="w-14 h-14 rounded-full object-cover ring-2 ring-primary/20"
                 />
                 <div>
                   <div className="font-semibold">
